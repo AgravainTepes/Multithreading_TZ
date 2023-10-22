@@ -17,7 +17,7 @@ public class App {
     public static void transaction(Account firstAccount, Account secondAccount) {
         logger.info("Transaction for accounts : " + firstAccount.getId() +
                 " with balance:" + firstAccount.getBalance() + " and " +
-                secondAccount.getId() + "with balance:" +
+                secondAccount.getId() + " with balance:" +
                 secondAccount.getBalance() + " starts.");
         int firstBalance = firstAccount
                 .getBalance()
