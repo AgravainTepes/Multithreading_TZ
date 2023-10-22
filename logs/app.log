@@ -1,0 +1,90 @@
+[INFO ] 2023-10-23 03:06:46.843 [pool-2-thread-1] App - Transaction for accounts : asgng with balance:10000 and jastjwith balance:10000 starts.
+[INFO ] 2023-10-23 03:06:46.844 [pool-2-thread-1] App - jastj transfers 1911 to the asgng
+[INFO ] 2023-10-23 03:06:46.844 [pool-2-thread-1] App - state of accounts at the end of the transaction : asgng balance:11911 and jastj balance:8089. Transaction ends. 
+[INFO ] 2023-10-23 03:06:47.186 [pool-2-thread-2] App - Transaction for accounts : asgng with balance:11911 and jastjwith balance:8089 starts.
+[INFO ] 2023-10-23 03:06:47.186 [pool-2-thread-2] App - jastj transfers 7635 to the asgng
+[INFO ] 2023-10-23 03:06:47.186 [pool-2-thread-2] App - state of accounts at the end of the transaction : asgng balance:19546 and jastj balance:454. Transaction ends. 
+[INFO ] 2023-10-23 03:06:48.020 [pool-2-thread-1] App - Transaction for accounts : dmwbr with balance:10000 and asgngwith balance:19546 starts.
+[INFO ] 2023-10-23 03:06:48.020 [pool-2-thread-1] App - asgng transfers 19118 to the dmwbr
+[INFO ] 2023-10-23 03:06:48.020 [pool-2-thread-1] App - state of accounts at the end of the transaction : dmwbr balance:29118 and asgng balance:428. Transaction ends. 
+[INFO ] 2023-10-23 03:06:48.847 [pool-2-thread-2] App - Transaction for accounts : jastj with balance:454 and dodsgwith balance:10000 starts.
+[INFO ] 2023-10-23 03:06:48.847 [pool-2-thread-2] App - dodsg transfers 5646 to the jastj
+[INFO ] 2023-10-23 03:06:48.847 [pool-2-thread-2] App - state of accounts at the end of the transaction : jastj balance:6100 and dodsg balance:4354. Transaction ends. 
+[INFO ] 2023-10-23 03:06:49.654 [pool-2-thread-1] App - Transaction for accounts : jastj with balance:6100 and asgngwith balance:428 starts.
+[INFO ] 2023-10-23 03:06:49.654 [pool-2-thread-1] App - jastj transfers 3710 to the asgng
+[INFO ] 2023-10-23 03:06:49.654 [pool-2-thread-1] App - state of accounts at the end of the transaction : jastj balance:2390 and asgng balance:4138. Transaction ends. 
+[INFO ] 2023-10-23 03:06:49.870 [pool-2-thread-2] App - Transaction for accounts : dodsg with balance:4354 and asgngwith balance:4138 starts.
+[INFO ] 2023-10-23 03:06:49.870 [pool-2-thread-2] App - asgng transfers 3325 to the dodsg
+[INFO ] 2023-10-23 03:06:49.870 [pool-2-thread-2] App - state of accounts at the end of the transaction : dodsg balance:7679 and asgng balance:813. Transaction ends. 
+[INFO ] 2023-10-23 03:06:51.593 [pool-2-thread-2] App - Transaction for accounts : dmwbr with balance:29118 and asgngwith balance:813 starts.
+[INFO ] 2023-10-23 03:06:51.593 [pool-2-thread-2] App - asgng transfers 754 to the dmwbr
+[INFO ] 2023-10-23 03:06:51.593 [pool-2-thread-2] App - state of accounts at the end of the transaction : dmwbr balance:29872 and asgng balance:59. Transaction ends. 
+[INFO ] 2023-10-23 03:06:51.614 [pool-2-thread-1] App - Transaction for accounts : jastj with balance:2390 and dodsgwith balance:7679 starts.
+[INFO ] 2023-10-23 03:06:51.614 [pool-2-thread-1] App - jastj transfers 1604 to the dodsg
+[INFO ] 2023-10-23 03:06:51.614 [pool-2-thread-1] App - state of accounts at the end of the transaction : jastj balance:786 and dodsg balance:9283. Transaction ends. 
+[INFO ] 2023-10-23 03:06:53.046 [pool-2-thread-2] App - Transaction for accounts : dodsg with balance:9283 and asgngwith balance:59 starts.
+[INFO ] 2023-10-23 03:06:53.046 [pool-2-thread-2] App - dodsg transfers 4508 to the asgng
+[INFO ] 2023-10-23 03:06:53.046 [pool-2-thread-2] App - state of accounts at the end of the transaction : dodsg balance:4775 and asgng balance:4567. Transaction ends. 
+[INFO ] 2023-10-23 03:06:53.498 [pool-2-thread-1] App - Transaction for accounts : asgng with balance:4567 and dodsgwith balance:4775 starts.
+[INFO ] 2023-10-23 03:06:53.498 [pool-2-thread-1] App - dodsg transfers 44 to the asgng
+[INFO ] 2023-10-23 03:06:53.498 [pool-2-thread-1] App - state of accounts at the end of the transaction : asgng balance:4611 and dodsg balance:4731. Transaction ends. 
+[INFO ] 2023-10-23 03:06:54.349 [pool-2-thread-2] App - Transaction for accounts : dmwbr with balance:29872 and dodsgwith balance:4731 starts.
+[INFO ] 2023-10-23 03:06:54.349 [pool-2-thread-2] App - dodsg transfers 3228 to the dmwbr
+[INFO ] 2023-10-23 03:06:54.349 [pool-2-thread-2] App - state of accounts at the end of the transaction : dmwbr balance:33100 and dodsg balance:1503. Transaction ends. 
+[INFO ] 2023-10-23 03:06:55.221 [pool-2-thread-1] App - Transaction for accounts : dodsg with balance:1503 and asgngwith balance:4611 starts.
+[INFO ] 2023-10-23 03:06:55.221 [pool-2-thread-1] App - asgng transfers 574 to the dodsg
+[INFO ] 2023-10-23 03:06:55.221 [pool-2-thread-1] App - state of accounts at the end of the transaction : dodsg balance:2077 and asgng balance:4037. Transaction ends. 
+[INFO ] 2023-10-23 03:06:55.516 [pool-2-thread-2] App - Transaction for accounts : asgng with balance:4037 and jastjwith balance:786 starts.
+[INFO ] 2023-10-23 03:06:55.516 [pool-2-thread-2] App - asgng transfers 3069 to the jastj
+[INFO ] 2023-10-23 03:06:55.516 [pool-2-thread-2] App - state of accounts at the end of the transaction : asgng balance:968 and jastj balance:3855. Transaction ends. 
+[INFO ] 2023-10-23 03:06:56.339 [pool-2-thread-1] App - Transaction for accounts : dmwbr with balance:33100 and jastjwith balance:3855 starts.
+[INFO ] 2023-10-23 03:06:56.339 [pool-2-thread-1] App - dmwbr transfers 11605 to the jastj
+[INFO ] 2023-10-23 03:06:56.339 [pool-2-thread-1] App - state of accounts at the end of the transaction : dmwbr balance:21495 and jastj balance:15460. Transaction ends. 
+[INFO ] 2023-10-23 03:06:57.139 [pool-2-thread-2] App - Transaction for accounts : dodsg with balance:2077 and asgngwith balance:968 starts.
+[INFO ] 2023-10-23 03:06:57.139 [pool-2-thread-2] App - asgng transfers 849 to the dodsg
+[INFO ] 2023-10-23 03:06:57.139 [pool-2-thread-2] App - state of accounts at the end of the transaction : dodsg balance:2926 and asgng balance:119. Transaction ends. 
+[INFO ] 2023-10-23 03:06:57.478 [pool-2-thread-1] App - Transaction for accounts : dmwbr with balance:21495 and jastjwith balance:15460 starts.
+[INFO ] 2023-10-23 03:06:57.478 [pool-2-thread-1] App - dmwbr transfers 15599 to the jastj
+[INFO ] 2023-10-23 03:06:57.478 [pool-2-thread-1] App - state of accounts at the end of the transaction : dmwbr balance:5896 and jastj balance:31059. Transaction ends. 
+[INFO ] 2023-10-23 03:06:58.570 [pool-2-thread-1] App - Transaction for accounts : jastj with balance:31059 and dodsgwith balance:2926 starts.
+[INFO ] 2023-10-23 03:06:58.570 [pool-2-thread-1] App - jastj transfers 1813 to the dodsg
+[INFO ] 2023-10-23 03:06:58.570 [pool-2-thread-1] App - state of accounts at the end of the transaction : jastj balance:29246 and dodsg balance:4739. Transaction ends. 
+[INFO ] 2023-10-23 03:06:58.708 [pool-2-thread-2] App - Transaction for accounts : dodsg with balance:4739 and dmwbrwith balance:5896 starts.
+[INFO ] 2023-10-23 03:06:58.708 [pool-2-thread-2] App - dmwbr transfers 2426 to the dodsg
+[INFO ] 2023-10-23 03:06:58.708 [pool-2-thread-2] App - state of accounts at the end of the transaction : dodsg balance:7165 and dmwbr balance:3470. Transaction ends. 
+[INFO ] 2023-10-23 03:07:00.059 [pool-2-thread-1] App - Transaction for accounts : asgng with balance:119 and jastjwith balance:29246 starts.
+[INFO ] 2023-10-23 03:07:00.059 [pool-2-thread-1] App - asgng transfers 21 to the jastj
+[INFO ] 2023-10-23 03:07:00.059 [pool-2-thread-1] App - state of accounts at the end of the transaction : asgng balance:98 and jastj balance:29267. Transaction ends. 
+[INFO ] 2023-10-23 03:07:00.185 [pool-2-thread-2] App - Transaction for accounts : asgng with balance:98 and jastjwith balance:29267 starts.
+[INFO ] 2023-10-23 03:07:00.185 [pool-2-thread-2] App - asgng transfers 35 to the jastj
+[INFO ] 2023-10-23 03:07:00.185 [pool-2-thread-2] App - state of accounts at the end of the transaction : asgng balance:63 and jastj balance:29302. Transaction ends. 
+[INFO ] 2023-10-23 03:07:01.864 [pool-2-thread-2] App - Transaction for accounts : jastj with balance:29302 and dmwbrwith balance:3470 starts.
+[INFO ] 2023-10-23 03:07:01.864 [pool-2-thread-2] App - dmwbr transfers 2413 to the jastj
+[INFO ] 2023-10-23 03:07:01.864 [pool-2-thread-2] App - state of accounts at the end of the transaction : jastj balance:31715 and dmwbr balance:1057. Transaction ends. 
+[INFO ] 2023-10-23 03:07:02.059 [pool-2-thread-1] App - Transaction for accounts : asgng with balance:63 and jastjwith balance:31715 starts.
+[INFO ] 2023-10-23 03:07:02.059 [pool-2-thread-1] App - jastj transfers 29793 to the asgng
+[INFO ] 2023-10-23 03:07:02.059 [pool-2-thread-1] App - state of accounts at the end of the transaction : asgng balance:29856 and jastj balance:1922. Transaction ends. 
+[INFO ] 2023-10-23 03:07:03.457 [pool-2-thread-2] App - Transaction for accounts : asgng with balance:29856 and dodsgwith balance:7165 starts.
+[INFO ] 2023-10-23 03:07:03.457 [pool-2-thread-2] App - dodsg transfers 1882 to the asgng
+[INFO ] 2023-10-23 03:07:03.457 [pool-2-thread-2] App - state of accounts at the end of the transaction : asgng balance:31738 and dodsg balance:5283. Transaction ends. 
+[INFO ] 2023-10-23 03:07:03.616 [pool-2-thread-1] App - Transaction for accounts : asgng with balance:31738 and dmwbrwith balance:1057 starts.
+[INFO ] 2023-10-23 03:07:03.616 [pool-2-thread-1] App - asgng transfers 8565 to the dmwbr
+[INFO ] 2023-10-23 03:07:03.616 [pool-2-thread-1] App - state of accounts at the end of the transaction : asgng balance:23173 and dmwbr balance:9622. Transaction ends. 
+[INFO ] 2023-10-23 03:07:04.825 [pool-2-thread-2] App - Transaction for accounts : asgng with balance:23173 and dodsgwith balance:5283 starts.
+[INFO ] 2023-10-23 03:07:04.825 [pool-2-thread-2] App - asgng transfers 11066 to the dodsg
+[INFO ] 2023-10-23 03:07:04.825 [pool-2-thread-2] App - state of accounts at the end of the transaction : asgng balance:12107 and dodsg balance:16349. Transaction ends. 
+[INFO ] 2023-10-23 03:07:05.614 [pool-2-thread-1] App - Transaction for accounts : dodsg with balance:16349 and dmwbrwith balance:9622 starts.
+[INFO ] 2023-10-23 03:07:05.614 [pool-2-thread-1] App - dodsg transfers 10094 to the dmwbr
+[INFO ] 2023-10-23 03:07:05.614 [pool-2-thread-1] App - state of accounts at the end of the transaction : dodsg balance:6255 and dmwbr balance:19716. Transaction ends. 
+[INFO ] 2023-10-23 03:07:06.344 [pool-2-thread-2] App - Transaction for accounts : jastj with balance:1922 and dmwbrwith balance:19716 starts.
+[INFO ] 2023-10-23 03:07:06.344 [pool-2-thread-2] App - jastj transfers 1153 to the dmwbr
+[INFO ] 2023-10-23 03:07:06.344 [pool-2-thread-2] App - state of accounts at the end of the transaction : jastj balance:769 and dmwbr balance:20869. Transaction ends. 
+[INFO ] 2023-10-23 03:07:06.841 [pool-2-thread-1] App - Transaction for accounts : dmwbr with balance:20869 and jastjwith balance:769 starts.
+[INFO ] 2023-10-23 03:07:06.841 [pool-2-thread-1] App - jastj transfers 591 to the dmwbr
+[INFO ] 2023-10-23 03:07:06.841 [pool-2-thread-1] App - state of accounts at the end of the transaction : dmwbr balance:21460 and jastj balance:178. Transaction ends. 
+[INFO ] 2023-10-23 03:07:07.992 [pool-2-thread-2] App - Transaction for accounts : jastj with balance:178 and dmwbrwith balance:21460 starts.
+[INFO ] 2023-10-23 03:07:07.992 [pool-2-thread-2] App - dmwbr transfers 696 to the jastj
+[INFO ] 2023-10-23 03:07:07.992 [pool-2-thread-2] App - state of accounts at the end of the transaction : jastj balance:874 and dmwbr balance:20764. Transaction ends. 
+[INFO ] 2023-10-23 03:07:08.603 [pool-2-thread-1] App - Transaction for accounts : jastj with balance:874 and asgngwith balance:12107 starts.
+[INFO ] 2023-10-23 03:07:08.603 [pool-2-thread-1] App - asgng transfers 10235 to the jastj
+[INFO ] 2023-10-23 03:07:08.603 [pool-2-thread-1] App - state of accounts at the end of the transaction : jastj balance:11109 and asgng balance:1872. Transaction ends. 
