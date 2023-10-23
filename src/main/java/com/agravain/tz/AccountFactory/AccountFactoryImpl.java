@@ -25,7 +25,8 @@ public class AccountFactoryImpl implements AccountFactory {
                     .collect(StringBuilder::new,
                             StringBuilder::appendCodePoint, StringBuilder::append)
                     .toString();
-            Account account = new Account(generatedString, new AtomicInteger(i));
+            Account account = new Account(generatedString,
+                    new AtomicInteger(10000));
             container.put(i, account);
         }
         if(container.isEmpty())
