@@ -4,6 +4,7 @@ import com.agravain.tz.Account.Account;
 
 import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class AccountFactoryImpl implements AccountFactory {
 
@@ -14,7 +15,7 @@ public class AccountFactoryImpl implements AccountFactory {
                 new ConcurrentHashMap<Integer, Account>();
         for (int i = 0; i < count; i++) {
 
-            Account account = new Account();
+
 
             Random random = new Random();
 
@@ -24,7 +25,7 @@ public class AccountFactoryImpl implements AccountFactory {
                     .collect(StringBuilder::new,
                             StringBuilder::appendCodePoint, StringBuilder::append)
                     .toString();
-            account.setId(generatedString);
+            Account account = new Account(generatedString, new AtomicInteger(i));
             container.put(i, account);
         }
         if(container.isEmpty())

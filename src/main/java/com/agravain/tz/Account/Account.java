@@ -4,15 +4,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Account {
+
+    public Account(String id, AtomicInteger balance) {
+        this.id = id;
+        this.balance = balance;
+    }
+
     private String id;
-    private AtomicInteger balance = new AtomicInteger(10000);
+    private AtomicInteger balance;
 
     public String getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public AtomicInteger getBalance() {
