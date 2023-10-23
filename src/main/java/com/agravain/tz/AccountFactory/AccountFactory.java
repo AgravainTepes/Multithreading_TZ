@@ -7,4 +7,5 @@ import java.util.concurrent.ConcurrentHashMap;
 public interface AccountFactory {
 
 ConcurrentHashMap<Integer, Account> createAccounts(int count);
+String generateUUID(int i);
 }
