@@ -30,8 +30,7 @@ public class AccountFactoryImpl implements AccountFactory {
                     startupAccountBalance);
             container.put(i, account);
         }
-        if(container.isEmpty())
-            return null;
+
         return container;
     }
 }
