@@ -1,7 +1,6 @@
 package com.agravain.tz.AccountFactory;
 
 import com.agravain.tz.Account.Account;
-
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;

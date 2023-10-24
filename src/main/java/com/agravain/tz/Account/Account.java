@@ -1,7 +1,6 @@
 package com.agravain.tz.Account;
 
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Account {
 
@@ -32,6 +31,4 @@ public class Account {
                 ", balance=" + balance +
                 '}';
     }
-
-
 }
