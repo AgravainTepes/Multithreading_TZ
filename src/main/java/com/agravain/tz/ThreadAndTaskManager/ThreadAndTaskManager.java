@@ -107,8 +107,6 @@ public class ThreadAndTaskManager {
     }
 
     public void run() {
-        AccountFactory factory =
-                new AccountFactoryImpl();
         AtomicInteger transactionCount =
                 new AtomicInteger(0);
         ExecutorService executorService =
