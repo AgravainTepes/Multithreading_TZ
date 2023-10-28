@@ -1,14 +1,15 @@
 package com.agravain.tz.AccountFactory;
 
 import com.agravain.tz.Account.Account;
+import com.agravain.tz.PropertiesLoader.PropertiesLoader;
+
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AccountFactoryImpl implements AccountFactory {
-    private final AtomicInteger startupAccountBalance =
-            new AtomicInteger(10000);
+    private PropertiesLoader propLoader = new PropertiesLoader();
 
     @Override
     public String generateUUID(int i) {
@@ -26,7 +27,7 @@ public class AccountFactoryImpl implements AccountFactory {
             String generatedString = generateUUID(i);
 
             Account account = new Account(generatedString,
-                    startupAccountBalance);
+                    new AtomicInteger(propLoader.getInitMoney()));
             container.put(i, account);
         }
 
